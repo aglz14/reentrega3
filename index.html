@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Calorías</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <h1 class="h1Title">Calculadora de Pasos y Calorías</h1>
+        <h3 class="pTitle">Haz ejercicio</h3>
+        <br>
+        <nav class="nav">
+            <ul class="nav-bar-ul">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="steps.html">Pasos y Calorías</a></li>
+            </ul>
+        </nav>
+    </header>
+    <br>
+    <main>
+        <div id="loginForm">
+            <label for="loginUser">Usuario:</label>
+            <input type="text" id="loginUser" placeholder="Ingresa tu usuario">
+            <br>
+            <label for="loginPassword">Contraseña:</label>
+            <input type="password" id="loginPassword" placeholder="Ingresa tu contraseña">
+            <br>
+            <button id="loginBtn">Iniciar Sesión</button>
+        </div>
+        <div id="app" style="display: none;"></div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>

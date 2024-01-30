@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasos y Calorías</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <h1 class="h1Title">Calculadora de Pasos y Calorías</h1>
+        <h3 class="pTitle">Haz ejercicio</h3>
+        <br>
+        <nav class="nav">
+            <ul class="nav-bar-ul">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#">Pasos y Calorías</a></li>
+            </ul>
+        </nav>
+    </header>
+    <br>
+    <main>
+        <div id="app" style="display: none;">
+            <form class="formApp">
+                <label for="userName">Nombre:</label>
+                <input type="text" id="userName" placeholder="Ingresa tu nombre">
+                <br>
+                <label for="weight">Peso:</label>
+                <input type="number" id="weight" placeholder="Ingresa tu peso en kg">
+                <br>
+                <label for="walkTime">Tiempo de Caminata Diaria (minutos):</label>
+                <input type="number" id="walkTime" placeholder="Tiempo de caminata diaria en minutos">
+                <br>
+                <ul id="stepsList"></ul>
+                <br>
+                <button id="calculateBtn">Calcular</button>
+                <br>
+                <p id="output"></p>
+            </form>
+        </div>
+    </main>
+    <script src="steps.js"></script>
+</body>
+</html>

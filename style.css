@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aqua;
+}
+
+.nav-bar-ul {
+    display: flex;
+    margin-top: 1.25rem;
+    font-size: 1.25rem;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+}
+
+.h1Title, .pTitle {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+#loginForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+label {
+    margin: .625rem .625rem;
+}
+
+button {
+    margin-top: 1rem;
+}
+
+#app { 
+    margin: auto auto;
+}
+
